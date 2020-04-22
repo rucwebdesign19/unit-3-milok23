@@ -1,5 +1,5 @@
 html * {
-  overflow-x: hidden;
+
 }
 
 
@@ -96,7 +96,7 @@ box-shadow: 10px 10px 46px -3px rgba(255,97,97,0.59);
   justify-content: center;
   box-sizing: border-box;
   width: 98%;
-  max-width: 900px;
+  max-width: 1000px;
 
 
 }
