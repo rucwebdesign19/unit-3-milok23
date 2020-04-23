@@ -2,7 +2,6 @@ html * {
 
 }
 
-
 body {
 
 	font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
@@ -11,13 +10,15 @@ body {
   box-sizing: border-box;
   margin: 1vw;
   background-color: rgb(233, 246, 252);
-
 }
 
 main{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 h1,
@@ -34,8 +35,6 @@ h6 {
 h1 {
 	font-size: 2em;
   margin: 0;
-
-
 }
 
 h2 {
@@ -52,6 +51,7 @@ h3 {
   display: flex;
   justify-content: center;
 }
+
 .title {
   display: flex;
   justify-content: center;
@@ -75,8 +75,15 @@ display: flex;
 justify-content: center;
   background-color: rgba(252, 48, 3, .8);
   border-radius: 10px;
+}
 
-
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    list-style-type: none;
 }
 
 .picture {
@@ -98,13 +105,11 @@ justify-content: center;
   width: 98%;
   max-width: 1000px;
 
-
 }
 .section{
-
   border: 3px solid green;
   border-radius: 25px;
-  padding: 5px;
+  padding: 15px;
   margin: 10px;
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,166,50,0.39);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0,166,50,0.39);
@@ -119,7 +124,13 @@ justify-content: center;
   padding: .5em;
   text-decoration: none;
   font-size: 3.8vw;
+
 }
+
+a:hover {
+  text-decoration: underline;
+}
+
 
 @media screen and (min-width: 1000px) {
   body {
